@@ -3,12 +3,13 @@
 This project implements a distributed application using **PySpark Streaming** to perform real-time analysis of tweet data. The primary goal is to determine the most relevant hashtags currently trending within the **United States** by employing powerful sliding window operations.
 
 The application connects to a continuous TCP socket data feed (simulated by `tweet_emitter.py`) and provides a fault-tolerant, scalable mechanism for analyzing high-velocity data streams.
------
 
+-----
 
 This project implements a distributed application using **PySpark Streaming** to perform real-time analysis of tweet data. The primary goal is to determine the most relevant hashtags currently trending within the **United States** by employing powerful sliding window operations.
 
 The application connects to a continuous TCP socket data feed (simulated by `tweet_emitter.py`) and provides a fault-tolerant, scalable mechanism for analyzing high-velocity data streams.
+
 -----
 
 ## Execution Guide
